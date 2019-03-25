@@ -10,7 +10,7 @@ function countReducer(countState = initCount, action) {
     if (action.type === 'countAction') {
         return {
             ...countState,
-            count: aciton.count
+            count: action.count
         }
     } else {
         return {

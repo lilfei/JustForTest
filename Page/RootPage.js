@@ -3,17 +3,38 @@ import {
     Platform,
     StyleSheet,
     Text,
-    View
+    View,
+    Button,
+    TouchableOpacity,
+    SafeAreaView
 } from 'react-native';
 import { connect } from 'react-redux';
 
+import { styles } from "../Util/Styles";
+
+import { countAction } from "../Redux/Action";
+
 type Props = {};
 class RootPage extends Component<Props> {
+
+    static navigationOptions = ({ navigation }) => {
+        return {
+            title: 'RootPage'
+        }
+    }
+
+    dispatchTest() {
+        const count = ++this.props.count;
+        this.props.dispatch(countAction(count));
+    }
+
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>RootPage</Text>
-                <Text style={styles.instructions}>{this.props.count}</Text>
+                <Text style={styles.instructions}>count: {this.props.count}</Text>
+                <TouchableOpacity style={styles.buttonStyle} onPress={() => this.dispatchTest()} >
+                    <Text>dispatchTest count+1</Text>
+                </TouchableOpacity>
             </View>
         );
     }
@@ -24,17 +45,3 @@ const mapStoreToProps = (store) => ({
 })
 
 export default connect(mapStoreToProps)(RootPage);
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    }
-});
