@@ -33,7 +33,9 @@ export const styles = StyleSheet.create({
         borderWidth: 1 / RATIO,
         borderColor: Color.borderColor,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginTop: 5,
+        marginBottom: 5,
     }
 });
 

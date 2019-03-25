@@ -23,17 +23,26 @@ class RootPage extends Component<Props> {
         }
     }
 
-    dispatchTest() {
+    onCountPlus() {
         const count = ++this.props.count;
         this.props.dispatch(countAction(count));
+    }
+
+    onLocalPage() {
+        this.props.navigation.navigate('LocalPage');
     }
 
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.instructions}>count: {this.props.count}</Text>
-                <TouchableOpacity style={styles.buttonStyle} onPress={() => this.dispatchTest()} >
-                    <Text>dispatchTest count+1</Text>
+                <TouchableOpacity style={styles.buttonStyle}
+                    onPress={() => this.onCountPlus()} >
+                    <Text>count++</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.buttonStyle}
+                    onPress={() => this.onLocalPage()} >
+                    <Text>go to LocalPage</Text>
                 </TouchableOpacity>
             </View>
         );
