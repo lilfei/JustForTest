@@ -1,0 +1,8 @@
+dependencies: \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.m \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.h \
+  /Users/lilongfei/Desktop/JustForTest/ios/build/JustForTest/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/lilongfei/Desktop/JustForTest/ios/build/JustForTest/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/lilongfei/Desktop/JustForTest/ios/build/JustForTest/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/lilongfei/Desktop/JustForTest/ios/build/JustForTest/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/lilongfei/Desktop/JustForTest/ios/build/JustForTest/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h
