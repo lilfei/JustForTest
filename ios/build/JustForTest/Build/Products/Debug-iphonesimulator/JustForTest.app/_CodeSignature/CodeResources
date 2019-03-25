@@ -6,15 +6,64 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		TYCFZGfrIuJk9cxGzqRNBd3a+hg=
+		Kpc20PJhxFKNJ+XJR63asGV/Nh4=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		HK6asLJ70IK7E4e83e8R1gxACHo=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		/8LQToTPOL9FsEsYDaACQ21Day0=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		P6P66kW7+LvLIo4WHjXGltpT8CA=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		xKX69bDGMJa2TcU/BC9ypZ06rsI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z0+5iQwGnMa0ARiCGP0LJRWT83w=
+		TSNAJEVq5MZMBPX85WyyDQFl/ug=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlugIns/JustForTestTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		0PHdQOpm0njWJ3qb8Bx+mNpnBuc=
+		</data>
+		<key>PlugIns/JustForTestTests.xctest.dSYM/Contents/Resources/DWARF/JustForTestTests</key>
+		<data>
+		CpgN4qUuWssCZRbdBWOUzxpOJ58=
+		</data>
+		<key>PlugIns/JustForTestTests.xctest/Info.plist</key>
+		<data>
+		YP/3eLrhoResV+WMO4KNArqP6gw=
+		</data>
+		<key>PlugIns/JustForTestTests.xctest/JustForTestTests</key>
+		<data>
+		LlhGv9RjVV5bK6Z0hRQ1f/SPp30=
+		</data>
+		<key>PlugIns/JustForTestTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		30SfqKrh4mOTUxKmaj+7MS0YJFg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,11 +72,134 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TYCFZGfrIuJk9cxGzqRNBd3a+hg=
+			Kpc20PJhxFKNJ+XJR63asGV/Nh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			B7pFWEldGDsEiJlE60diEQCp5Z7wGCPM8eRinZva924=
+			/UuqpEttLzKMmyYMquzm9gtRLBU+DR+WMSzNfIsEaUo=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			VfVpYXVjG5OK2j8J39CP2mIMg1P5eFaYkRIJ/Hb2RSQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HK6asLJ70IK7E4e83e8R1gxACHo=
+			</data>
+			<key>hash2</key>
+			<data>
+			olgg9NXiZ2M1ifvjBR8uTJxtXlM5EacLdDrNxfmImoY=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/8LQToTPOL9FsEsYDaACQ21Day0=
+			</data>
+			<key>hash2</key>
+			<data>
+			C7sJpbu4qpi8/rH5JYpdQYncotP69JQ9Fiu8jrHXYvU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P6P66kW7+LvLIo4WHjXGltpT8CA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2BV684CZjHtMZHxSiwC5qc/DGXv9WIOWUc9dEU/Q1pw=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xKX69bDGMJa2TcU/BC9ypZ06rsI=
+			</data>
+			<key>hash2</key>
+			<data>
+			jJ/zKe1SwWk9KkZ4MXV01NPW4QiHpU1aZhpfTDknkp0=
+			</data>
+		</dict>
+		<key>PlugIns/JustForTestTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0PHdQOpm0njWJ3qb8Bx+mNpnBuc=
+			</data>
+			<key>hash2</key>
+			<data>
+			tppeiA6m6pGtb8X7FT4x7EKIf/BctxxjuT9owTDWTWs=
+			</data>
+		</dict>
+		<key>PlugIns/JustForTestTests.xctest.dSYM/Contents/Resources/DWARF/JustForTestTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CpgN4qUuWssCZRbdBWOUzxpOJ58=
+			</data>
+			<key>hash2</key>
+			<data>
+			0hWHEj24Ntzyn8mhZ4fYIqRtGscMlvUyGND/UBdW/5s=
+			</data>
+		</dict>
+		<key>PlugIns/JustForTestTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YP/3eLrhoResV+WMO4KNArqP6gw=
+			</data>
+			<key>hash2</key>
+			<data>
+			H3MT1LRdyMmG6mO3OQ4bTM/p7HNPJ+ysvWwGN0y5WIw=
+			</data>
+		</dict>
+		<key>PlugIns/JustForTestTests.xctest/JustForTestTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LlhGv9RjVV5bK6Z0hRQ1f/SPp30=
+			</data>
+			<key>hash2</key>
+			<data>
+			o0CVYwxESrchH1kRZwEkBSgK6G39JAExi9SFE43MkuU=
+			</data>
+		</dict>
+		<key>PlugIns/JustForTestTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			30SfqKrh4mOTUxKmaj+7MS0YJFg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Up8KbCUSgU8VuCmfHX9Knevo/4QiSl3qIdLvE4zW2bY=
 			</data>
 		</dict>
 	</dict>

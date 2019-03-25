@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.cpp \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/Demangle.h
