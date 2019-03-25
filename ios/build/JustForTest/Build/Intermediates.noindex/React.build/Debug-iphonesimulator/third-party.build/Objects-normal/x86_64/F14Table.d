@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.cpp \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Bits.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Likely.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ScopeGuard.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/UncaughtExceptions.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Align.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Launder.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/SafeAssert.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Defaults.h \
+  /Users/lilongfei/Desktop/JustForTest/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14IntrinsicsAvailability.h
