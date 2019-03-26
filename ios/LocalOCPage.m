@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+		UIView *view1 = [[UIView alloc] init];
+		view1.frame = CGRectMake(200, 200, 200, 200);
+		view1.backgroundColor = [UIColor redColor];
+		
+		[self.view addSubview:view1];
 }
 
 /*

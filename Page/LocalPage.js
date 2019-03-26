@@ -5,6 +5,7 @@ import {
     Text,
     View,
     TouchableOpacity,
+    NativeModules,
 } from 'react-native';
 import { connect } from 'react-redux';
 
@@ -12,6 +13,7 @@ import { styles } from '../Util/Styles';
 
 const isANDROID = Platform.OS === 'android';
 const isIOS = Platform.OS === 'ios';
+const LocalOCPageManager = NativeModules.LocalOCPageManager;
 
 type Props = {};
 class LocalPage extends Component<Props> {
@@ -24,7 +26,19 @@ class LocalPage extends Component<Props> {
 
     onLocalOCPage() {
         if (isIOS) {
-
+            let date = new Date();
+            LocalOCPageManager.addEvent('Test', '哈哈');
+            LocalOCPageManager.addEvent1('Test1', '哈哈1', date.getTime());
+            LocalOCPageManager.addEvent2('Test2', '哈哈2', date.toISOString());
+            LocalOCPageManager.addEvent3('Test3', '哈哈3', date.getTime());
+            LocalOCPageManager.addEvent4('Test4', {
+                location: 'location',
+                time: date.getTime(),
+                description: 'haha description',
+            });
+            LocalOCPageManager.findEvents((result) => {
+                console.log('result: ', result);
+            })
         } else {
             alert('该功能用于iOS系统!');
         }
