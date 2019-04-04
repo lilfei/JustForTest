@@ -38,7 +38,7 @@
 		6AA7B802C7EF4C49A0CE1E1E /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFD0E90571B49A287A98459 /* libRNScreens.a */; };
 		7441DC7CDC4F4FDB9ADFB09C /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE4D5FC9D9C4C6090DD268F /* libRNGestureHandler-tvOS.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		9422EF58224A429900BA1228 /* LocalOCPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422EF57224A429900BA1228 /* LocalOCPageManager.m */; };
+		9422EF58224A429900BA1228 /* RNBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9422EF57224A429900BA1228 /* RNBridgeManager.m */; };
 		945E3C352249127100192498 /* LocalOCPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 945E3C332249127100192498 /* LocalOCPage.m */; };
 		945E3C362249127100192498 /* LocalOCPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945E3C342249127100192498 /* LocalOCPage.xib */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -374,8 +374,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7FFEED8D6B2A44E48DC2ACFE /* RNScreens.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNScreens.xcodeproj; path = "../node_modules/react-native-screens/ios/RNScreens.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		9422EF56224A41F500BA1228 /* LocalOCPageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalOCPageManager.h; sourceTree = "<group>"; };
-		9422EF57224A429900BA1228 /* LocalOCPageManager.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = LocalOCPageManager.m; sourceTree = "<group>"; };
+		9422EF56224A41F500BA1228 /* RNBridgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeManager.h; sourceTree = "<group>"; };
+		9422EF57224A429900BA1228 /* RNBridgeManager.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = RNBridgeManager.m; sourceTree = "<group>"; };
 		945E3C322249127100192498 /* LocalOCPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalOCPage.h; sourceTree = "<group>"; };
 		945E3C332249127100192498 /* LocalOCPage.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = LocalOCPage.m; sourceTree = "<group>"; usesTabs = 1; };
 		945E3C342249127100192498 /* LocalOCPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalOCPage.xib; sourceTree = "<group>"; };
@@ -533,11 +533,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				945E3C322249127100192498 /* LocalOCPage.h */,
-				945E3C332249127100192498 /* LocalOCPage.m */,
-				945E3C342249127100192498 /* LocalOCPage.xib */,
-				9422EF56224A41F500BA1228 /* LocalOCPageManager.h */,
-				9422EF57224A429900BA1228 /* LocalOCPageManager.m */,
 			);
 			name = JustForTest;
 			sourceTree = "<group>";
@@ -626,6 +621,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				945BB589224B0587006C0E86 /* LocalOCPageModule */,
 				13B07FAE1A68108700A75B9A /* JustForTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* JustForTestTests */,
@@ -647,6 +643,18 @@
 				2D02E4901E0B4A5D006451C7 /* JustForTest-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		945BB589224B0587006C0E86 /* LocalOCPageModule */ = {
+			isa = PBXGroup;
+			children = (
+				945E3C322249127100192498 /* LocalOCPage.h */,
+				945E3C332249127100192498 /* LocalOCPage.m */,
+				945E3C342249127100192498 /* LocalOCPage.xib */,
+				9422EF56224A41F500BA1228 /* RNBridgeManager.h */,
+				9422EF57224A429900BA1228 /* RNBridgeManager.m */,
+			);
+			path = LocalOCPageModule;
 			sourceTree = "<group>";
 		};
 		949F94B02248B747009B3848 /* Recovered References */ = {
@@ -1230,7 +1238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9422EF58224A429900BA1228 /* LocalOCPageManager.m in Sources */,
+				9422EF58224A429900BA1228 /* RNBridgeManager.m in Sources */,
 				945E3C352249127100192498 /* LocalOCPage.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,

@@ -8,6 +8,6 @@
 
 #import <React/RCTBridgeModule.h>
 
-@interface LocalOCPageManager : NSObject <RCTBridgeModule>
+@interface RNBridgeManager : NSObject <RCTBridgeModule>
 @end
 

@@ -6,11 +6,13 @@
 //  Copyright © 2019 Facebook. All rights reserved.
 //
 
-#import "LocalOCPageManager.h"
+#import "RNBridgeManager.h"
+#import "AppDelegate.h"
+#import "LocalOCPage.h"
 #import <React/RCTLog.h>
 #import <React/RCTConvert.h>
 
-@implementation LocalOCPageManager
+@implementation RNBridgeManager
 
 // To export a module named LocalOCPageManager
 RCT_EXPORT_MODULE();
@@ -53,6 +55,12 @@ RCT_EXPORT_METHOD(findEvents:(RCTResponseSenderBlock)callback){
     callback(@[events]);
 }
 
-
+RCT_EXPORT_METHOD(jumpLocalOCPage){
+    NSLog(@"React: RN传入原生界面的数据为:");
+    //主要这里必须使用主线程发送,不然有可能失效
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [[NSNotificationCenter defaultCenter]postNotificationName:@"RNOpenOneVC" object:nil];
+    });
+}
 
 @end
