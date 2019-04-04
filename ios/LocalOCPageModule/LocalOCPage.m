@@ -22,8 +22,9 @@
 		if (_label == nil) {
 				_label = [[UILabel alloc] initWithFrame:CGRectMake(100, 200, 200, 50)];
 				_label.backgroundColor = [UIColor greenColor];
-				_label.textColor = [UIColor whiteColor];
+				_label.textColor = [UIColor blackColor];
 				_label.font = [UIFont systemFontOfSize:20];
+				_label.text = @"这是原生OC页面";
 		}
 		return  _label;
 }
@@ -32,7 +33,7 @@
 		if (_btn == nil) {
 				_btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 400, 200, 50)];
 				_btn.backgroundColor = [UIColor redColor];
-				[_btn setTitle:@"返回" forState:UIControlStateNormal];
+				[_btn setTitle:@"返回RN页面" forState:UIControlStateNormal];
 				[_btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 				[_btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
 		}
