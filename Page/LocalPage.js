@@ -15,8 +15,7 @@ const isANDROID = Platform.OS === 'android';
 const isIOS = Platform.OS === 'ios';
 const LocalOCPageManager = NativeModules.RNBridgeManager;
 
-type Props = {};
-class LocalPage extends Component<Props> {
+class LocalPage extends Component {
 
     static navigationOptions = ({ navigation }) => {
         return {

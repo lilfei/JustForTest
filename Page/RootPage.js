@@ -14,8 +14,7 @@ import { styles } from "../Util/Styles";
 
 import { countAction } from "../Redux/Action";
 
-type Props = {};
-class RootPage extends Component<Props> {
+class RootPage extends Component {
 
     static navigationOptions = ({ navigation }) => {
         return {
